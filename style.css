@@ -1,0 +1,293 @@
+﻿* {
+    box-sizing: border-box;
+}
+
+body,
+ul,
+li {
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+.content-text h1,
+.content-text h2 {
+    color: #417859;
+    font-family: 'IDroid';
+}
+
+h2 {
+    background-image: linear-gradient(to right, #d1efdf, #fff);
+    padding: 0 10px;
+    margin: 0 25px;
+}
+
+body {
+    background-color: #84e1ad;
+}
+
+@font-face {
+    font-family: 'IDroid';
+    src: url(fontes/idroid.otf);
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: url(fontes/Oswald-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'Bebas neue';
+    src: url(fontes/BebasNeue-Regular.ttf);
+}
+
+a {
+    text-decoration: none;
+    display: block;
+}
+
+.content-menu {
+    background-image: linear-gradient( #3cd782, #175232);
+    height: 300px;
+    box-sizing: content-box;
+    width: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+    box-shadow: 0 2px 5px 1px rgb(64 60 67 / 80%);
+}
+
+.content-menu h1 {
+    font-size: 55px;
+    margin: 0 0 10px 0;
+    padding-top: 25px;
+    font-family: 'Bebas neue';
+    font-weight: normal;
+}
+
+.content-menu p {
+    font-size: 30px;
+    margin: 5px auto;
+    padding-top: 25px;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.menu {
+    display: flex;
+    position: absolute;
+    top: 250px;
+}
+
+.menu ul {
+    display: flex;
+    padding: 0;
+    list-style: none;
+}
+
+.menu a {
+    margin: 0 15px;
+    padding: 10px 10px;
+    font-weight: bold;
+    color: white;
+}
+
+.menu a:hover {
+    background-color: #2b9b5e;
+    border-radius: 6px;
+}
+
+
+/* Conteiner principal       ~~~~   	~~~~  	~~~~  	~~~~  	~~~~    ~~~~    ~~~~    	~~~~    ~~~~    	~~~~  */
+
+.content-principal {
+    max-width: 1100px;
+    margin: 0 auto;
+    background-color: white;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    box-shadow: 0 2px 5px 1px rgb(64 60 67 / 80%);
+}
+
+.content-text h1 {
+    margin: 0;
+    font-size: 45px;
+    padding: 25px;
+}
+
+.content-text p {
+    font-size: 21px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-indent: 40px;
+    padding: 25px;
+    margin: 0;
+}
+
+.content-text img {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+
+/* Seção de vídeo       ~~~~   	~~~~  	~~~~  	~~~~  	~~~~    ~~~~    ~~~~    	~~~~    ~~~~    	~~~~  */
+
+.video {
+    background-color: #1a5c38;
+    max-width: 100%;
+}
+
+.frame {
+    display: flex;
+    padding: 25px 25px;
+    margin: 0 auto;
+}
+
+
+/* Seção Extra      ~~~~   	~~~~  	~~~~  	~~~~  	~~~~    ~~~~    ~~~~    	~~~~    ~~~~    	~~~~ */
+
+.aprender-mais {
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.extra {
+    margin: 20px;
+    padding: 0px;
+    background: #c9edd9;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px 1px rgb(64 60 67 / 80%);
+}
+
+.lista-android ul {
+    display: inline-block;
+    position: relative;
+    margin: 20px;
+    list-style: url(icons/check.svg);
+    font-weight: bold;
+}
+
+.lista-android {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.extra p {
+    font-size: 21px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-indent: 40px;
+    text-align: center;
+    padding: 25px;
+    margin: 0;
+}
+
+#destaque-extra {
+    background-color: #2fa866;
+    color: white;
+    font-weight: bold;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    text-align: initial;
+}
+
+.text-finalizacao {
+    font-size: 21px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 25px;
+    margin: 0;
+}
+
+
+/* Footer -------------------------------------------------------------- */
+
+footer p {
+    background-color: #1a5c38;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 0;
+    height: 40px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+
+/* Tentativa de responsividade ---------------------------------------- */
+
+@media (max-width: 990px) {
+    .frame {
+        width: 760px;
+        height: 515px;
+    }
+}
+
+@media (max-width: 800px) {
+    .frame {
+        width: 660px;
+        height: 390px;
+    }
+}
+
+@media (max-width: 700px) {
+    .frame {
+        width: 560px;
+        height: 315px;
+    }
+}
+
+@media (max-width: 600px) {
+    .frame {
+        width: 460px;
+        height: 280px;
+    }
+}
+
+
+/* Menu mobile ----------------------------------------------------------- */
+
+@media (max-width: 600px) {
+    .menu ul {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        background: #175232;
+        height: 55px;
+        z-index: 99;
+        color: white;
+        font-weight: bold;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    header nav p {
+        width: 100%;
+        height: none;
+        text-align: center;
+    }
+    .content-menu p {
+        font-size: 25px;
+    }
+    footer p {
+        margin-top: 30px;
+        margin-bottom: 55px;
+    }
+}
+
+@media (max-width: 620px) {
+    .content-text h1 {
+        margin: 0;
+        font-size: 30px;
+        padding: 20px;
+    }
+}
