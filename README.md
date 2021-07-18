@@ -7,4 +7,4 @@
 # English version.
 
 - This site was created from an exercise proposed in a course.
-- On the website there is an article that talks a little about the Android system, curiosities about its versions and how the Bugdroid developed by the graphic designer Irina Blok emerged.
+- On the website there is an article that talks about the Android system, curiosities about its versions and how the Bugdroid developed by the graphic designer Irina Blok emerged.
